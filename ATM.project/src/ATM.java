@@ -9,7 +9,7 @@ public class ATM {
         Scanner sc = new Scanner(System.in);
 
         // init Bank
-        Bank theBank = new Bank("Bank of Drausin");
+        Bank theBank = new Bank("Bank");
 
         // add a user, which also creates a Savings account
         User aUser = theBank.addUser("John", "Doe", "1234");
