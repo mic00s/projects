@@ -1,0 +1,41 @@
+buildscript {
+    dependencies {
+    }
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    println System.properties['java.home']
+}
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+
+}
+
+javafx {
+    version = "11"
+    modules = [ 'javafx.controls', 'javafx.fxml']
+    mainClassName = "com.sudoku.Main"
+
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
+    testImplementation('org.junit.jupiter:junit-jupiter-engine:5.4.2')
+}
