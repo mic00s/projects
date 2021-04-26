@@ -1,4 +1,11 @@
 # projects
+#DesktopSudoku: screenshot link
+#https://drive.google.com/file/d/1wWKQux2ReIptIGzudcxu2Oe9GuGfSAFJ/view?usp=sharing
+#
+#Simple Snake Game: screenshot link
+#https://drive.google.com/file/d/1zFZROf2dz7G9huKWbIbz0qwSn0UzoXue/view?usp=sharing
+#
+#
 #ATM interface
 
 Example Session
