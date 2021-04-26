@@ -1,5 +1,5 @@
 # projects
-#DesktopSudoku: screenshot link
+#DesktopSudoku (freeCodeCamp course): screenshot link
 #https://drive.google.com/file/d/1wWKQux2ReIptIGzudcxu2Oe9GuGfSAFJ/view?usp=sharing
 #
 #Simple Snake Game: screenshot link
